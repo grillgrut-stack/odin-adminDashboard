@@ -11,9 +11,31 @@ body
 #dashboard
 {
     grid-area: dashboard;
+    display: grid;
+    justify-content: left;
     background-color: #1992D4;
     color: white;
 }
+
+#dashLogo 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #header 
 {
