@@ -1,3 +1,36 @@
-body {
-    background-color: red;
+body 
+{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    "dashboard header header"
+    "dashboard mainSection announce"
+    "dashboard mainSection trending";
+}
+
+#dashboard
+{
+    grid-area: dashboard;
+    background-color: #1992D4;
+    color: white;
+}
+
+#header 
+{
+    grid-area: header;
+}
+
+#mainSection
+{
+    grid-area: mainSection;
+}
+
+#announcements
+{
+    grid-area: announce;
+}
+
+#trending 
+{
+    grid-area: trending;
 }
