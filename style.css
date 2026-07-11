@@ -1,12 +1,19 @@
-body 
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
 {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 6fr, 3fr;
     grid-template-areas: 
     "dashboard header header"
     "dashboard mainSection mainSection"
     "dashboard mainSection mainSection";
-    margin: 0;
+
 }
 
 #dashboard
