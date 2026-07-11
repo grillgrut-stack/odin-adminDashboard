@@ -4,8 +4,8 @@ body
     grid-template-columns: 1fr 6fr;
     grid-template-areas: 
     "dashboard header header"
-    "dashboard mainSection announce"
-    "dashboard mainSection trending";
+    "dashboard mainSection mainSection"
+    "dashboard mainSection mainSection";
 }
 
 #dashboard
@@ -40,21 +40,25 @@ body
     display: flex;
 }
 
-
-
-
-
-
-
-
-
 #mainSection
 {
     background-color: #E2E8F0;
+    display: grid;
+    grid-template-areas: 
+    "myProjects announce"
+    "myProjects ."
+    "myProjects trending";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.fr;
 }
 
-
-
+#myProjects
+{
+    grid-area: myProjects;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(autofit, minmax(150px, 1fr));
+}
 
 
 
