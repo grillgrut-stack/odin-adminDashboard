@@ -18,6 +18,16 @@ body
     color: white;
 }
 
+#sidebar
+{
+    display: flex;
+}
+
+#sidebar li
+{
+    list-style-type: none;
+}
+
 #dashLogo
 {
     margin-top: -30px;
