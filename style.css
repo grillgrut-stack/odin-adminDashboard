@@ -25,6 +25,29 @@ body
     width: 35px;
 }
 
+#header
+{
+    display: flex;
+}
+
+.user
+{
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#mainSection
+{
+    background-color: #E2E8F0;
+}
 
 
 
