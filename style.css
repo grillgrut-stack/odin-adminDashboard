@@ -13,30 +13,41 @@ body
 {
     grid-area: dashboard;
     display: grid;
-    justify-content: left;
     background-color: #1992D4;
     color: white;
-}
-
-#sidebar
-{
-    display: flex;
-}
-
-#sidebar li
-{
-    list-style-type: none;
+    grid-template-columns: 1fr;
+    
 }
 
 #dashLogo
 {
-    margin-top: -30px;
+    gap: 10px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    
+    justify-content: left;
+    padding: 0px;
+    margin: 0px;
 }
+
+#sidebar ul, #utils ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+li
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 
 #header
 {
