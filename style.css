@@ -6,6 +6,7 @@ body
     "dashboard header header"
     "dashboard mainSection mainSection"
     "dashboard mainSection mainSection";
+    margin: 0;
 }
 
 #dashboard
@@ -19,10 +20,12 @@ body
 
 #dashLogo
 {
-    margin-top: 20px;
+    margin-top: -30px;
     font-size: 20px;
     font-weight: bold;
-    width: 35px;
+    display: flex;
+    align-items: center;
+    
 }
 
 #header
