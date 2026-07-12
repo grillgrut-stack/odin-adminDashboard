@@ -24,8 +24,11 @@ body
     background-color: #1992D4;
     color: white;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.8fr 2fr 4fr;
+    grid-template-rows: 0.8fr 3fr 9fr;
+    gap: 30px;
     padding-left: 20px;
+    font-weight: 700;
+    font-size: 15px;
 
 }
 
@@ -114,7 +117,7 @@ li
     grid-area: trending;
 }
 
-span 
+span
 {
     display: none;
 }
