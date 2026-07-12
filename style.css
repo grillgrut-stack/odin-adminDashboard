@@ -5,13 +5,11 @@ html, body
     height: 100%;
 }
 
-
 body
 {
     display: grid;
     grid-template-rows: 0.15fr;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    min-height: 100%;
+    grid-template-columns: 0.7fr 2fr 2fr;
     grid-template-areas: 
     "dashboard header header"
     "dashboard mainSection mainSection"
@@ -26,12 +24,13 @@ body
     background-color: #1992D4;
     color: white;
     grid-template-columns: 1fr;
-    
+    grid-template-rows: 0.8fr 2fr 4fr;
+    padding-left: 20px;
+
 }
 
 #dashLogo
 {
-    gap: 10px;
     font-size: 20px;
     font-weight: bold;
     display: flex;
@@ -39,6 +38,7 @@ body
     justify-content: left;
     padding: 0px;
     margin: 0px;
+    gap: 5px;
 }
 
 #sidebar ul, #utils ul
@@ -94,15 +94,6 @@ li
     grid-template-rows: repeat(autofit, minmax(150px, 1fr));
 }
 
-
-
-
-
-
-
-
-
-
 #header 
 {
     grid-area: header;
@@ -121,4 +112,14 @@ li
 #trending 
 {
     grid-area: trending;
+}
+
+span 
+{
+    display: none;
+}
+
+.icon
+{
+    filter: brightness(0) invert(1);
 }
