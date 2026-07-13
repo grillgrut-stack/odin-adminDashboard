@@ -65,7 +65,24 @@ li
 #header
 {
     display: flex;
+    align-items: center;
 }
+
+#topHeader 
+{
+    flex-grow: 1;
+}
+
+#topHeader div 
+{
+    margin: 15px;
+}
+
+#hello
+{
+    margin: 0px;;
+}
+
 
 .user
 {
