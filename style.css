@@ -68,14 +68,27 @@ li
     align-items: center;
 }
 
+#hiUser
+{
+    display: flex;
+    justify-self: center;
+}
+
 #topHeader 
 {
     flex-grow: 1;
 }
 
-#topHeader div 
+#mag
 {
-    margin: 15px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+#searchBar
+{
+    margin-left: 20px;
+    width: 700px;
 }
 
 #hello
@@ -83,6 +96,28 @@ li
     margin: 0px;;
 }
 
+#botHeader
+{
+    flex-grow: 1;
+}
+
+#noti 
+{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#buttons
+{
+
+}
+
+#buttons button
+{
+    margin-right: 40px;
+}
 
 .user
 {
@@ -92,6 +127,9 @@ li
 #hiUser
 {
     display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    
 }
 
 #mainSection
