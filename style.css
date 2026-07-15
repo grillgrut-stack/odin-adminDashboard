@@ -155,6 +155,11 @@ li
     gap: 30px;
 }
 
+#yourProjects
+{
+
+}
+
 .projects
 {
     border: 1px solid black;
@@ -174,16 +179,23 @@ li
 #announcements
 {
     grid-area: announce;
+}
+
+#announce
+{
     border: 1px solid black;
     margin: 30px;
     gap: 30px;
 }
 
-#announce
-
 #trending 
 {
     grid-area: trending;
+}
+
+#trend
+{
+    
     border: 1px solid black;
     margin: 30px;
     gap: 30px;
