@@ -109,9 +109,10 @@ li
     gap: 20px;
 }
 
-#buttons
+#searchArea
 {
-
+    display: flex;
+    align-content: center;
 }
 
 #buttons button
@@ -150,7 +151,15 @@ li
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(autofit, minmax(150px, 1fr));
+    margin: 30px;
+    gap: 30px;
 }
+
+.projects
+{
+    border: 1px solid black;
+}
+
 
 #header 
 {
@@ -165,11 +174,19 @@ li
 #announcements
 {
     grid-area: announce;
+    border: 1px solid black;
+    margin: 30px;
+    gap: 30px;
 }
+
+#announce
 
 #trending 
 {
     grid-area: trending;
+    border: 1px solid black;
+    margin: 30px;
+    gap: 30px;
 }
 
 span
