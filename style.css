@@ -81,13 +81,13 @@ li
 
 #mag
 {
-    margin-left: 10px;
+    margin-left: 30px;
     justify-content: center;
 }
 
 #searchBar
 {
-    margin-left: 20px;
+    margin-left: 10px;
     width: 700px;
 }
 
@@ -103,6 +103,7 @@ li
 
 #noti 
 {
+    margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -118,6 +119,11 @@ li
 #buttons button
 {
     margin-right: 40px;
+}
+
+#buttons
+{
+    margin-bottom: 30px;
 }
 
 .user
