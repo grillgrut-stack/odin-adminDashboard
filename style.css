@@ -66,6 +66,8 @@ li
 {
     display: flex;
     align-items: center;
+    box-shadow: 0px 5px 5px lightgray;
+    margin-bottom: 5px;
 }
 
 #hiUser
@@ -89,11 +91,20 @@ li
 {
     margin-left: 10px;
     width: 700px;
+    border-radius: 25px;
+    background-color: #E2E8F0;
+    padding: 5px;
+    border: 0px;
+}
+
+#userID
+{
+    font-weight: bold;
 }
 
 #hello
 {
-    margin: 0px;;
+    margin: 0px;
 }
 
 #botHeader
@@ -118,8 +129,18 @@ li
 
 #buttons button
 {
+    color: white;
+    background-color: #1992D4;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-right: 40px;
 }
+
+
 
 #buttons
 {
@@ -136,8 +157,11 @@ li
     display: flex;
     margin-top: 30px;
     margin-left: 30px;
-    
+    gap: 15px;
+    align-items: center;
 }
+
+
 
 #mainSection
 {
