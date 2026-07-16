@@ -217,6 +217,7 @@ li
     border-radius: 15px;
     border: 0px;
     padding: 20px;
+    box-shadow: 1px 3px 3px 3px lightgray;
 }
 
 #announce, #trend
@@ -224,6 +225,7 @@ li
     border: 0px;
     border-radius: 15px;
     padding: 20px;
+    box-shadow: 1px 3px 3px 3px lightgray;
 }
 
 .projectHeader, #announceHeader, #trendHeader
@@ -240,8 +242,17 @@ li
 .projectButtons
 {
     display: flex;
-    gap: 10px;
-    justify-content: right;
+    gap: 20px;
+    height: 200px;
+    justify-content: end;
+    align-items: end;
+    margin-top: auto;
+    
+}
+
+.projectButtons button
+{
+    display: flex;
 }
 
 #announce
