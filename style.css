@@ -100,16 +100,19 @@ li
 #userID
 {
     font-weight: bold;
+    font-size: 20px;
 }
 
 #hello
 {
     margin: 0px;
+    font-size: 12px;
 }
 
 #botHeader
 {
     flex-grow: 1;
+    margin-left: 200px;
 }
 
 #noti 
@@ -118,7 +121,8 @@ li
     margin-bottom: 50px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap:50px;
+    margin-left: 60px;
 }
 
 #searchArea
@@ -204,6 +208,40 @@ li
     border: 1px solid black;
     background-color: white;
     
+}
+
+.projects
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 0px;
+    padding: 20px;
+}
+
+#announce, #trend
+{
+    border: 0px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.projectHeader, #announceHeader, #trendHeader
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.projectInfo
+{
+    font-size: 15px;
+}
+
+.projectButtons
+{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
 }
 
 #announce
