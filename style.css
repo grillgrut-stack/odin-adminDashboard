@@ -132,15 +132,18 @@ li
     margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap:50px;
-    margin-left: 60px;
+    margin-right: 60px;
+    
 }
 
 #searchArea
 {
     display: flex;
     align-content: center;
+    
 }
 
 #buttons button
@@ -154,12 +157,15 @@ li
     padding-left: 25px;
     padding-right: 25px;
     margin-right: 40px;
+    
 }
 
 
 
 #buttons
 {
+    display: flex;
+    justify-content: flex-end;
     margin-bottom: 30px;
 }
 
@@ -267,7 +273,8 @@ li
 
 #announce
 {
-    height: 460px;
+    min-height: 410px;
+    max-height: 590px;
     
 }
 
@@ -308,13 +315,14 @@ li
 #trending 
 {
     grid-area: trending;
-    margin-top: -120px;
+    margin-top: -90px;
 }
 
 #trend 
 {
 
-    height: 490px;
+    min-height: 420px;
+    max-height: 600px;
 
 }
 
