@@ -1,3 +1,15 @@
+@font-face
+{
+    font-family: "marioFont";
+    src: url("font/Relidux.otf") format("opentype");
+}
+
+*
+{
+    font-family: "marioFont";
+}
+
+
 html, body 
 {
     margin: 0;
@@ -224,7 +236,7 @@ li
 #announce, #trend
 {
     border: 0px;
-    border-radius: 15px;
+    border-radius: 8px;
     padding: 20px;
     box-shadow: 1px 3px 3px 3px lightgray;
 }
@@ -253,7 +265,8 @@ li
 
 #announce
 {
-    height: 530px;
+    height: 460px;
+    
 }
 
 #header 
@@ -269,6 +282,7 @@ li
 #announcements
 {
     grid-area: announce;
+    
 }
 #trendHeader
 {
@@ -292,12 +306,14 @@ li
 #trending 
 {
     grid-area: trending;
-    margin-top: -170px;
+    margin-top: -120px;
 }
 
 #trend 
 {
-    height: 540px;
+
+    height: 490px;
+
 }
 
 span
@@ -308,4 +324,33 @@ span
 .icon
 {
     filter: brightness(0) invert(1);
+}
+
+#sectOne, #sectTwo, #sectThree
+{
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 0.1px solid lightgray;
+}
+
+#announce div
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+}
+
+#trend div img
+{
+    width:50px;
+}
+
+.userOne
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
 }
