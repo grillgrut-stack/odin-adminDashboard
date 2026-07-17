@@ -1,12 +1,12 @@
 @font-face
 {
     font-family: "marioFont";
-    src: url("font/Relidux.otf") format("opentype");
+    src: url("font/KiwiSoda.ttf") format("truetype");
 }
 
 *
 {
-    font-family: "marioFont";
+    font-family: "marioFont", Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -189,6 +189,8 @@ li
     "myProjects trending";
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 0.5fr 0.5fr 0.1fr;
+    min-height: 1100px;
+    max-height: 1500px;
 }
 
 #myProjects
@@ -199,7 +201,7 @@ li
     grid-template-rows: repeat(autofit, minmax(150px, 1fr));
     margin: 30px;
     gap: 30px;
-    min-height: 85vh;
+    min-height: 55vh;
 }
 
 #Projects
